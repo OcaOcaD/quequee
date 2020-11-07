@@ -1,0 +1,49 @@
+@import '../variables';
+.mainPage{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: $main;
+    color: white;
+    .main_svg{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        min-width: 100%;
+        max-width: 100%;
+        z-index: 1;
+    }
+    h1{ 
+        font-size: 60px;
+        // width: 100%;
+        max-width: 80%;
+        line-height: 1.2em;
+        height: auto;
+        text-align: center;
+        z-index: 3;
+        padding: 3.5em 2em;
+    }
+    .comment_svg{
+        position: fixed;
+        z-index: 2;
+        bottom: calc( 100vh / 12 );
+        right: $column_size;
+        max-height: 55vh;
+    }
+    h2{
+        position: fixed;
+        bottom: calc( 100vh / 12 );
+        left: $column_size;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 40px;
+        padding: 1em;
+        z-index: 3;
+        color: $dif;
+        cursor: pointer;
+    }
+}

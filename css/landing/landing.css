@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: "Poppins", Poppins, Arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+h3 {
+  font-family: "Poppins", Poppins, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+
+p {
+  font-family: "Poppins", Poppins, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+blockquote {
+  font-family: "Poppins", Poppins, Arial, sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+pre {
+  font-family: "Poppins", Poppins, Arial, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
+}
+
+.queBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  width: 240px;
+  background-color: white;
+  color: #03011E;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.mainPage {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #03011E;
+  color: white;
+}
+
+.mainPage .main_svg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-width: 100%;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.mainPage h1 {
+  font-size: 60px;
+  max-width: 80%;
+  line-height: 1.2em;
+  height: auto;
+  text-align: center;
+  z-index: 3;
+  padding: 3.5em 2em;
+}
+
+.mainPage .comment_svg {
+  position: fixed;
+  z-index: 2;
+  bottom: calc( 100vh / 12);
+  right: calc( 100vw / 12);
+  max-height: 55vh;
+}
+
+.mainPage h2 {
+  position: fixed;
+  bottom: calc( 100vh / 12);
+  left: calc( 100vw / 12);
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 40px;
+  padding: 1em;
+  z-index: 3;
+  color: #FFFFAA;
+  cursor: pointer;
+}
+/*# sourceMappingURL=landing.css.map */

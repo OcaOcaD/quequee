@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: "Poppins", Poppins, Arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+h3 {
+  font-family: "Poppins", Poppins, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+
+p {
+  font-family: "Poppins", Poppins, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+blockquote {
+  font-family: "Poppins", Poppins, Arial, sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+pre {
+  font-family: "Poppins", Poppins, Arial, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
+}
+
+.queBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  width: 240px;
+  background-color: white;
+  color: #03011E;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.formPage {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #03011E;
+  color: white;
+}
+
+.formPage .formPageTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 100px;
+  padding: 3.5em 0 1em 0;
+  width: 90%;
+}
+
+.formPage .formPageTitle h1 {
+  height: auto;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-size: Min(60px, 4vh);
+  color: inherit;
+  font-weight: bold;
+  letter-spacing: 2px;
+  z-index: 2;
+}
+
+.formPage .formPageTitle .newForm {
+  color: #FFFFAA;
+  height: Min(75px, 10vw);
+  width: Min(75px, 10vw);
+  background-color: transparent;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px !important;
+}
+
+.formPage .formPageTitle .newForm img {
+  max-height: 60%;
+  color: inherit;
+  fill: white;
+  max-height: 100%;
+}
+
+.formPage .separation {
+  height: 10px;
+  border-radius: 5px;
+  background-color: white;
+  color: white;
+  width: 90%;
+  z-index: 2;
+}
+
+.form_svg {
+  min-height: 100%;
+  max-height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.forms {
+  width: 90%;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.forms .headers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 2em 0;
+}
+
+.forms .headers p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30%;
+  font-size: Min(20px, 2vh);
+}
+
+.forms .headers .description {
+  width: 40%;
+}
+
+.forms .formContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  color: #1d1d1b;
+  margin: 1em 0;
+}
+
+.forms .formContainer .title, .forms .formContainer .description, .forms .formContainer .operations {
+  font-weight: regular;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30%;
+  font-size: 16px;
+}
+
+.forms .formContainer .operations {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.forms .formContainer .operations button {
+  cursor: pointer;
+  -ms-flex-preferred-size: 140px;
+      flex-basis: 140px;
+  background-color: #2A167B;
+  font-size: 12px !important;
+  color: white;
+  border: none;
+  -webkit-box-shadow: 0 2px #8c8c8c;
+          box-shadow: 0 2px #8c8c8c;
+  margin: 5px 0;
+}
+
+.forms .formContainer .description {
+  width: 40%;
+}
+
+.forms .formContainer .description p {
+  padding: 0.5em;
+}
+/*# sourceMappingURL=form.css.map */

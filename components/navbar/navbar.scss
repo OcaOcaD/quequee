@@ -1,0 +1,23 @@
+@import '../../css/variables';
+.navbar{
+    @include flexCenter(row);
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+    flex-wrap: wrap;
+    .logo{
+        @include flexCenter(column);
+        height: 100%;
+        flex-basis: 280px;
+        img{
+
+            max-height: 85%;
+        }
+    }
+    // border: 1px solid red;
+}
