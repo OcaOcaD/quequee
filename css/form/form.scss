@@ -33,6 +33,7 @@
             // max-width: 45%;
             height: Min(75px, 10vw);
             width: Min(75px, 10vw);
+            margin-right: 10px;
             background-color: transparent;
             border: none;
             @include flexCenter(column);
@@ -121,6 +122,7 @@
                 box-shadow: 0 2px #8c8c8c;
                 margin: 5px 0;
             }
+            
         }
         .description{
             width: 40%;

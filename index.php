@@ -12,7 +12,7 @@
         // import("./navbar/navbar.php")
         include("./components/navbar/navbar.php");
     ?>
-    <div class="mainPage">
+    <div class="mainPage">d
         <img class="main_svg" src="./images/main.svg" alt="Main svg">
         <h1>¿Qué piensan los clientes de tu negocio?</h1>
         <h2>Cóntactanos y entérate</h2>
